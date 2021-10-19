@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Te mostramos algunos de nuestros trabajos">
+  <meta name="keywords" content="DESARROLLO WEB, DESARROLLO DE SOFTWARE, SISTEMAS DE GESTION, ASESORAMIENTO IT, PROGRAMACION, PAGINA WEB, SOLUCIONES INTEGRALES, TRABAJO REMOTO, SERVIDORES">
+  <meta name="author" content="Ezequiel Arnaudo">
+  <meta name="copyright" content="Neo Solutions">
+  <meta NAME="DateCreated" CONTENT="Mon, 18 October 2021 00:00:00 GMT+1">
+  <meta NAME="robots" content="ALL">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../sass-node/estilos/main.css">
+
+  <title>Portfolio</title>
+
+</head>
+
+<body>
+
+
+
+  <!--------Inicio navegacion---------->
+  <header>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">Neo Solutions</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav navegacion">
+            <li class="nav-item">
+              <a class="nav-link navegacion__links" href="../section/nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navegacion__links" href="../section/portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navegacion__links" href="../section/equipo.html">Equipo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navegacion__links" href="../section/contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle navegacion__links" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Redes
+              </a>
+              <ul class="dropdown-menu  redes" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item redes__boton" href="#">Facebook</a></li>
+                <li><a class="dropdown-item redes__boton" href="#">Instagram</a></li>
+                <li><a class="dropdown-item redes__boton" href="#">Linkedin</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!--------Fin navegacion---------->
+
+  <!--------Comienzo portfolio---------->
+
+  <main>
+    <div class="container">
+      <h1 class="portfolio">TE MOSTRAMOS ALGUNOS DE NUESTROS TRABAJOS</h1>
+      <br>
+      <span class="nombreProd">MSK PEDIDOS</span><br>
+      <article class="portfolio__desc">
+        Es una web app creada para la gestion de pedidos de fabricas lacteas, se le brinda a los vendedores una
+        herramienta comoda y agil a la hora de vender sus productos. Dicha app fue creada con tecnologia .Net y
+        ReactJs.
+      </article>
+      <div>
+        <img class="decoOfi" src="../images/mskPedidos1.jpg" alt="MSK Pedidos" >
+      </div>
+      <hr><br>
+
+      <span class="nombreProd">MUNDO EMPRESAS</span><br>
+      <article class="portfolio__desc">
+        Mundo Empresas asume el compromiso de ser la plataforma de noticias que refleje la actualidad, novedades,
+        opiniones,
+        historias y perspectivas de las compañías locales y de la región.
+        Aplicacion web creada con tecnologia .Net y Bootstrap.
+      </article>
+      <div>
+        <img class="decoOfi" src="../images/mundoEmpresas1.png" alt="Mundo Empresas">
+      </div>
+    </div>
+  </main>
+
+
+
+
+
+
+  <!-- inicio Footer -->
+  <footer class="page-footer font-small bg-dark pt-4">
+    <div class="container-fluid text-center text-md-left">
+      <div class="row">
+        <div class="col-md-6 mt-md-0 mt-3">
+          <h5 class="text-uppercase">Neo Solutions</h5>
+          <p>Soluciones IT para tu empresa.</p>
+        </div>
+        <div class="col-md-3 mb-md-0 mb-3">
+          <!-- Links navegacion-->
+          <h5 class="text-uppercase">Links</h5>
+          <ul class="list-unstyled navFooter">
+            <li>
+              <a class="text-uppercase__navFooter" href="../index.html">Home</a>
+            </li>
+            <li>
+              <a class="text-uppercase__navFooter" href="equipo.html">Equipo</a>
+            </li>
+            <li>
+              <a class="text-uppercase__navFooter" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3 mb-md-0 mb-3">
+          <!-- Links redes sociales -->
+          <h5 class="text-uppercase">Redes</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a class="text-uppercase__navFooter" href="#!">Instagram</a>
+            </li>
+            <li>
+              <a class="text-uppercase__navFooter" href="#!">Facebook</a>
+            </li>
+            <li>
+              <a class="text-uppercase__navFooter" href="#!">Linkedin</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Fin Footer -->
+
+
+
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
+
+
+</body>
+
+</html>

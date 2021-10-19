@@ -1,0 +1,171 @@
+/* ESTILOS HOME/GRAL */
+body {
+  font-family: 'Montserrat', sans-serif; }
+
+.container {
+  margin-top: 80px;
+  max-width: 50%; }
+
+@media (max-width: 576px) {
+  .container {
+    max-width: none; } }
+
+.bg-dark {
+  background-color: black !important; }
+
+.navbar-brand {
+  color: white;
+  font-weight: bold;
+  font-size: 1.3rem; }
+
+.navbar-collapse {
+  justify-content: center; }
+
+.navegacion {
+  text-align: center; }
+  .navegacion__links {
+    color: #d6370c !important;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-transform: uppercase; }
+  .navegacion__links:hover {
+    background-color: #eeb47d;
+    color: white !important;
+    font-weight: bold; }
+
+.home {
+  font-weight: bold; }
+  .home__presentacion {
+    color: #d6370c !important;
+    text-transform: uppercase;
+    text-shadow: 1px 1px;
+    font-weight: bold;
+    font-size: calc(1rem + 1.5vw);
+    text-align: center;
+    margin-top: revert;
+    text-decoration: underline; }
+
+.redes {
+  background-color: black; }
+  .redes__boton {
+    color: #d6370c !important;
+    font-weight: bold; }
+
+h2 {
+  margin-top: revert; }
+
+article {
+  margin-top: 3rem; }
+
+a {
+  text-decoration: none; }
+
+/*estilos NOSOTROS*/
+.decoOfi {
+  max-width: 500px;
+  vertical-align: baseline;
+  border: 2px solid #d6370c; }
+  @media (max-width: 576px) {
+    .decoOfi {
+      max-width: 300px; } }
+
+.videoResponsive {
+  position: relative;
+  border: 2px solid #d6370c;
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.2%;
+  margin-bottom: 20px; }
+
+.videoResponsive iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+/*estilos contacto*/
+.formContacto {
+  margin-top: 4rem; }
+
+.contacto {
+  margin-top: 5rem;
+  color: #d6370c;
+  font-weight: bold;
+  text-align: center; }
+  .contacto__estilo {
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase; }
+
+/*estilos equipo*/
+.teamNeo {
+  margin-top: 5rem; }
+  .teamNeo__equipoNeo {
+    color: black;
+    font-weight: bold;
+    margin-top: 15px; }
+
+.main {
+  margin-top: 5rem;
+  margin-bottom: 0rem; }
+  .main__titulo {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #d6370c; }
+
+.rotarImg :hover {
+  transform: scale(0.9); }
+
+.imgScale {
+  border: 3px solid #d6370c;
+  margin-top: 15px; }
+
+/*estilos portfolio*/
+.portfolio {
+  margin-top: 5rem;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #d6370c; }
+  .portfolio__desc {
+    color: black;
+    font-weight: bold; }
+
+.nombreProd {
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: underline; }
+
+/*estilos footer*/
+footer {
+  color: rgba(255, 255, 255, 0.55);
+  list-style-type: none;
+  margin-top: 3rem; }
+
+.text-uppercase {
+  color: #d6370c !important;
+  font-weight: bold;
+  font-size: 1.3rem; }
+  .text-uppercase__navFooter {
+    color: white !important;
+    text-transform: uppercase; }
+
+.text-uppercase__navFooter:hover {
+  background-color: #eeb47d;
+  color: black !important;
+  font-weight: bold; }
+
+/*estilos 404*/
+.error-404 {
+  padding: 40px 15px;
+  text-align: center; }
+
+.error-botones {
+  margin-top: 15px;
+  margin-bottom: 15px; }
+
+.error-botones .btn {
+  margin-right: 10px; }
