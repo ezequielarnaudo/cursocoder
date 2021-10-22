@@ -66,7 +66,7 @@ a {
 
 /*estilos NOSOTROS*/
 .decoOfi {
-  max-width: 500px;
+  max-width: 300px;
   vertical-align: baseline;
   border: 2px solid #d6370c; }
   @media (max-width: 576px) {
