@@ -127,6 +127,15 @@ a {
   margin-top: 15px; }
 
 /*estilos portfolio*/
+
+.decoOficina {
+  max-width: 500px;
+  vertical-align: baseline;
+  border: 2px solid #d6370c; }
+  @media (max-width: 576px) {
+    .decoOfi {
+      max-width: 300px; } }
+
 .portfolio {
   margin-top: 5rem;
   text-align: center;
