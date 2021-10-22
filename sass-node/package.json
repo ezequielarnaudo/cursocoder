@@ -1,7 +1,7 @@
 {
   "name": "instalacionsass",
   "version": "1.0.0",
-  "description": "instalando sass clase 11",
+  "description": "instalacion de sass, proyecto sitio web",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
