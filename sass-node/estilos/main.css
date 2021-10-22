@@ -60,6 +60,10 @@ article {
 a {
   text-decoration: none; }
 
+  .margenTop{
+    margin-top: 1rem;
+  }
+
 /*estilos NOSOTROS*/
 .decoOfi {
   max-width: 500px;
