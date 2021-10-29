@@ -231,15 +231,11 @@ a {
       border-color: #d6370c !important;
   }
 
-<<<<<<< HEAD
- 
-=======
   .btn-primary:hover{
     background-color: #d6370c !important;
     color: white !important;
     border-color: black !important;
   }
->>>>>>> 06200355ce9a3ee77adc88ca428da3af25d77978
 
 /*estilos equipo*/
 .teamNeo {
