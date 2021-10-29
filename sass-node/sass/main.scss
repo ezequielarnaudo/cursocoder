@@ -23,11 +23,6 @@ body {
     background-color: $negro !important;
 }
 
-.navbar-brand {
-    color: $blanco;
-    font-weight: bold;
-    font-size: 1.3rem;
-}
 
 .navbar-brand {
     position: relative;
@@ -40,7 +35,6 @@ body {
   
   .navbar-brand:hover{
     font-size: 2rem;
-    
     font-weight: bold;
   }
   
@@ -64,7 +58,7 @@ body {
   }
   
   
-  /* ANIMATIONS
+  /* Animacion de logo
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
   .navbar-brand[data-animation="to-left"] a::before {
     transform-origin: right;

@@ -13,10 +13,7 @@ body {
 .bg-dark {
   background-color: black !important; }
 
-.navbar-brand {
-  color: white;
-  font-weight: bold;
-  font-size: 1.3rem; }
+
 
   .navbar-brand {
     position: relative;
@@ -29,7 +26,6 @@ body {
   
   .navbar-brand:hover{
     font-size: 2rem;
-    
     font-weight: bold;
   }
   
