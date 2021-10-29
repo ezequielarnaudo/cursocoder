@@ -108,7 +108,9 @@ a {
   .teamNeo__equipoNeo {
     color: black;
     font-weight: bold;
-    margin-top: 15px; }
+    margin-top: 15px; 
+    display: block;
+  }
 
 .main {
   margin-top: 5rem;
