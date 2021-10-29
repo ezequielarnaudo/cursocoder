@@ -101,7 +101,19 @@ a {
     color: black;
     font-weight: bold;
     text-transform: uppercase; }
+    
+    .btn-primary{
+      background-color: black !important;
+      color: #d6370c  !important;
+      font-weight: bold !important;
+      border-color: #d6370c !important;
+  }
 
+  .btn-primary:hover{
+    background-color: #d6370c !important;
+    color: white !important;
+    border-color: black !important;
+  }
 
 /*estilos equipo*/
 .teamNeo {
