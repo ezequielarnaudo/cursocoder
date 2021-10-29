@@ -102,6 +102,7 @@ a {
     font-weight: bold;
     text-transform: uppercase; }
 
+<<<<<<< HEAD
     .btn-primary{
       background-color: black !important;
       color: #d6370c  !important;
@@ -114,6 +115,12 @@ a {
     color: white !important;
     border-color: black !important;
   }
+=======
+.btn-primary{
+  background-color: black !important;
+  color: #d6370c !important;
+}    
+>>>>>>> e9e757f011a127d3b1e3b99ef91f909f1acb51a0
 
 /*estilos equipo*/
 .teamNeo {
@@ -121,7 +128,9 @@ a {
   .teamNeo__equipoNeo {
     color: black;
     font-weight: bold;
-    margin-top: 15px; }
+    margin-top: 15px; 
+    display: block;
+  }
 
 .main {
   margin-top: 5rem;
