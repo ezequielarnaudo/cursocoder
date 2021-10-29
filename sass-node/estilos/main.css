@@ -102,6 +102,11 @@ a {
     font-weight: bold;
     text-transform: uppercase; }
 
+.btn-primary{
+  background-color: black !important;
+  color: #d6370c !important;
+}    
+
 /*estilos equipo*/
 .teamNeo {
   margin-top: 5rem; }
