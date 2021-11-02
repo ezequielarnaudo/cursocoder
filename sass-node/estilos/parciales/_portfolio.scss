@@ -1,0 +1,21 @@
+/*estilos portfolio*/
+
+.portfolio {
+    margin-top: 5rem;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: $naranja;
+
+    &__desc {
+        color: $negro;
+        font-weight: bold;
+    }
+}
+
+.nombreProd {
+    color: $negro;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: underline;
+}

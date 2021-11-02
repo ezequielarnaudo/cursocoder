@@ -1,0 +1,138 @@
+/* ESTILOS HOME/GRAL */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    margin-top: 80px;
+    max-width: 50%;
+}
+
+@media (max-width: 576px) {
+    .container {
+        max-width: none;
+    }
+}
+
+.bg-dark {
+    background-color: $negro !important;
+}
+
+
+.navbar-brand {
+    position: relative;
+    display: block;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.3rem;
+  }
+  
+  .navbar-brand:hover{
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  
+  .navbar-brand::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, #e76e36, #eb5712, #ff5100);
+    z-index: 1;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .navbar-brand:hover::before {
+    transform: scaleX(1);
+  }
+    /* Animacion de logo
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  .navbar-brand[data-animation="to-left"] a::before {
+    transform-origin: right;
+  }
+  
+  .navbar-brand[data-animation="center"] a::before {
+    transform-origin: center;
+  }
+  
+  .navbar-brand[data-animation="bonus"] a::before {
+    transform-origin: right;
+  }
+  
+  .navbar-brand[data-animation="bonus"] a:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+    transition-timing-function: cubic-bezier(0.2, 1, 0.82, 0.94);
+  }
+
+.navbar-collapse {
+    justify-content: center;
+
+}
+
+.navegacion {
+    text-align: center;
+
+    &__links {
+        color: $naranja !important;
+        font-size: 1.3rem;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    &__links:hover{
+        background-color: rgb(238, 180, 125);
+        color: $blanco !important;
+        font-weight: bold;
+    }
+
+}
+
+
+
+.home {
+    font-weight: bold;
+
+    &__presentacion {
+        color: $naranja !important;
+        text-transform: uppercase;
+        text-shadow: 1px 1px;
+        font-weight: bold;
+        font-size: calc(1rem + 1.5vw);
+        text-align: center;
+        margin-top: revert;
+        text-decoration: underline;
+    }
+}
+
+
+.redes {
+    background-color: $negro;
+
+    &__boton {
+        color: $naranja !important;
+        font-weight: bold;
+    }
+}
+
+
+h2 {
+    margin-top: revert;
+}
+
+article {
+    margin-top: 3rem;
+}
+
+
+
+a {
+    text-decoration: none;
+}

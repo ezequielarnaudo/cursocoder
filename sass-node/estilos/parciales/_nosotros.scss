@@ -1,0 +1,34 @@
+/*estilos NOSOTROS*/
+
+@mixin movil {
+    @media (max-width: 576px){
+        @content;
+    }
+}
+
+
+.decoOfi {
+    max-width: 300px;
+    vertical-align: baseline;
+    border: 2px solid $naranja;
+    @include movil(){
+        max-width: 300px;
+    }
+}
+
+.videoResponsive {
+    position: relative;
+    border: 2px solid $naranja;
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 56.2%;
+    margin-bottom: 20px;
+}
+
+.videoResponsive iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

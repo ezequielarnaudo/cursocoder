@@ -1,0 +1,35 @@
+/*estilos equipo*/
+
+.teamNeo {
+    margin-top: 5rem;
+
+    &__equipoNeo {
+        color: $negro;
+        font-weight: bold;
+        margin-top: 15px;
+    }
+}
+
+
+
+.main {
+    margin-top: 5rem;
+    margin-bottom: 0rem;
+
+    &__titulo {
+        text-align: center;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: $naranja;
+    }
+}
+
+
+.rotarImg :hover {
+    transform: scale(0.9);
+}
+
+.imgScale{
+    border: 3px solid $naranja;
+    margin-top: 15px;
+}

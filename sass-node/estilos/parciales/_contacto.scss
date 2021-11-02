@@ -1,0 +1,31 @@
+/*estilos contacto*/
+
+.formContacto {
+    margin-top: 4rem;
+}
+
+.contacto {
+    margin-top: 5rem;
+    color: $naranja;
+    font-weight: bold;
+    text-align: center;
+
+    &__estilo {
+        color: $negro;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+}
+
+.btn-primary{
+    background-color: black !important;
+    color: white !important;
+    font-weight: bold !important;
+    border-color: 1px solid $naranja !important;
+}
+
+.btn-primary:hover{
+    background-color: #d6370c !important;
+    color: white !important;
+    border-color: black !important;
+  }

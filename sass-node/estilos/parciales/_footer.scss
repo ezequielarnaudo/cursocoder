@@ -1,0 +1,26 @@
+/*estilos footer*/
+
+footer {
+    color: rgba(255, 255, 255, .55);
+    list-style-type: none;
+    margin-top: 3rem;
+}
+
+.text-uppercase {
+    color: $naranja !important;
+    font-weight: bold;
+    font-size: 1.3rem;
+
+    &__navFooter {
+        color: $blanco !important;
+        text-transform: uppercase;
+
+    }
+}
+
+
+.text-uppercase__navFooter:hover {
+    background-color: rgb(238, 180, 125);
+    color: $negro !important;
+    font-weight: bold;
+}
